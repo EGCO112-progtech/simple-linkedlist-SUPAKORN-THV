@@ -1,8 +1,9 @@
+DESP = ll
 compile: main.c 
-	 gcc main.c -o ming
+	 gcc main.c -o $(DESP)
 
-run: ming
-	 ./ming
+run: $(DESP)
+	 ./$(DESP)
 
-clean: ming
-	 rm ming
+clean: $(DESP)
+	 rm $(DESP)
