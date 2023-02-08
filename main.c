@@ -119,7 +119,6 @@ int main(int argc, const char * argv[]) {
       free(tmp);
       tmp = tmp2;
     }
-      printf("deleting %p\n", tmp2);
-      free(tmp2);
+      printf("\n");
     return 0;
 }
